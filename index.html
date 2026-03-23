@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Alunos - Programação Web II</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode"> 
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="brand-title">Perfil Alunos - Programação Web II</h1>
+            <div class="header-actions">
+                <button id="global-color-toggle" class="btn-icon"><span class="material-icons-outlined">palette</span></button>
+                <button id="theme-toggle" class="btn-icon"><span class="material-icons-outlined" id="theme-icon">dark_mode</span></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-container">
+        <div class="profile-grid">
+            <article class="profile-card" data-color="1">
+                <div class="card-top-section">
+                    <div class="avatar-wrapper">
+                        <div class="avatar-halo"></div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Avatar" class="avatar-img">
+                        <button class="btn-edit-avatar"><span class="material-icons-outlined">photo_camera</span></button>
+                    </div>
+                </div>
+                <div class="card-content-section">
+                    <div class="identity">
+                        <h2 class="user-name">Alinne Souza</h2>
+                        <p class="user-role">UI/UX Designer</p>
+                    </div>
+                    <p class="user-bio">Apaixonada por criar interfaces intuitivas e esteticamente agradáveis.</p>
+                    <div class="skills-tag-list">
+                        <span class="skill-tag">Figma</span><span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">Prototipagem</span><span class="skill-tag">UX Research</span>
+                    </div>
+                </div>
+                <footer class="card-actions">
+                    <div class="stats">
+                        <div class="stat-item"><span class="stat-value" data-followers>1.2k</span><span class="stat-label">Seguidores</span></div>
+                        <div class="stat-item"><span class="stat-value">350</span><span class="stat-label">Seguindo</span></div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn-secondary btn-message">Ver Perfil</button>
+                        <button class="btn-primary btn-follow"><span class="material-icons-outlined">person_add</span><span class="btn-text">Seguir</span></button>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="profile-card" data-color="1">
+                <div class="card-top-section">
+                    <div class="avatar-wrapper">
+                        <div class="avatar-halo"></div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Avatar" class="avatar-img">
+                        <button class="btn-edit-avatar"><span class="material-icons-outlined">photo_camera</span></button>
+                    </div>
+                </div>
+                <div class="card-content-section">
+                    <div class="identity">
+                        <h2 class="user-name">Suzana Lima</h2>
+                        <p class="user-role">Front-end Engineer</p>
+                    </div>
+                    <p class="user-bio">Especialista em transformar designs complexos em interfaces performáticas.</p>
+                    <div class="skills-tag-list">
+                        <span class="skill-tag">React</span><span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Next.js</span><span class="skill-tag">Tailwind</span>
+                    </div>
+                </div>
+                <footer class="card-actions">
+                    <div class="stats">
+                        <div class="stat-item"><span class="stat-value" data-followers>2.1k</span><span class="stat-label">Seguidores</span></div>
+                        <div class="stat-item"><span class="stat-value">890</span><span class="stat-label">Seguindo</span></div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn-secondary btn-message">Ver Perfil</button>
+                        <button class="btn-primary btn-follow"><span class="material-icons-outlined">person_add</span><span class="btn-text">Seguir</span></button>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="profile-card" data-color="1">
+                <div class="card-top-section">
+                    <div class="avatar-wrapper">
+                        <div class="avatar-halo"></div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Avatar" class="avatar-img">
+                        <button class="btn-edit-avatar"><span class="material-icons-outlined">photo_camera</span></button>
+                    </div>
+                </div>
+                <div class="card-content-section">
+                    <div class="identity">
+                        <h2 class="user-name">Carlos Eduardo</h2>
+                        <p class="user-role">Back-end Developer</p>
+                    </div>
+                    <p class="user-bio">Focado na escalabilidade de sistemas e segurança de dados.</p>
+                    <div class="skills-tag-list">
+                        <span class="skill-tag">Node.js</span><span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Docker</span><span class="skill-tag">Redis</span>
+                    </div>
+                </div>
+                <footer class="card-actions">
+                    <div class="stats">
+                        <div class="stat-item"><span class="stat-value" data-followers>1.5k</span><span class="stat-label">Seguidores</span></div>
+                        <div class="stat-item"><span class="stat-value">420</span><span class="stat-label">Seguindo</span></div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn-secondary btn-message">Ver Perfil</button>
+                        <button class="btn-primary btn-follow"><span class="material-icons-outlined">person_add</span><span class="btn-text">Seguir</span></button>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="profile-card" data-color="1">
+                <div class="card-top-section">
+                    <div class="avatar-wrapper">
+                        <div class="avatar-halo"></div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Avatar" class="avatar-img">
+                        <button class="btn-edit-avatar"><span class="material-icons-outlined">photo_camera</span></button>
+                    </div>
+                </div>
+                <div class="card-content-section">
+                    <div class="identity">
+                        <h2 class="user-name">Beatriz Melo</h2>
+                        <p class="user-role">Data Analyst</p>
+                    </div>
+                    <p class="user-bio">Extraindo insights valiosos de grandes volumes de informação.</p>
+                    <div class="skills-tag-list">
+                        <span class="skill-tag">Python</span><span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Tableau</span><span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <footer class="card-actions">
+                    <div class="stats">
+                        <div class="stat-item"><span class="stat-value" data-followers>3.2k</span><span class="stat-label">Seguidores</span></div>
+                        <div class="stat-item"><span class="stat-value">210</span><span class="stat-label">Seguindo</span></div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn-secondary btn-message">Ver Perfil</button>
+                        <button class="btn-primary btn-follow"><span class="material-icons-outlined">person_add</span><span class="btn-text">Seguir</span></button>
+                    </div>
+                </footer>
+            </article>
+            <article class="profile-card" data-color="1">
+                <div class="card-top-section">
+                    <div class="avatar-wrapper">
+                        <div class="avatar-halo"></div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Avatar" class="avatar-img">
+                        <button class="btn-edit-avatar"><span class="material-icons-outlined">photo_camera</span></button>
+                    </div>
+                </div>
+                <div class="card-content-section">
+                    <div class="identity">
+                        <h2 class="user-name">Suzana Melo</h2>
+                        <p class="user-role">Data Analyst</p>
+                    </div>
+                    <p class="user-bio">Extraindo insights valiosos de grandes volumes de informação.</p>
+                    <div class="skills-tag-list">
+                        <span class="skill-tag">Python</span><span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Tableau</span><span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <footer class="card-actions">
+                    <div class="stats">
+                        <div class="stat-item"><span class="stat-value" data-followers>3.2k</span><span class="stat-label">Seguidores</span></div>
+                        <div class="stat-item"><span class="stat-value">210</span><span class="stat-label">Seguindo</span></div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn-secondary btn-message">Ver Perfil</button>
+                        <button class="btn-primary btn-follow"><span class="material-icons-outlined">person_add</span><span class="btn-text">Seguir</span></button>
+                    </div>
+                </footer>
+            </article>
+        </div>
+    </main>
+
+    <div id="profile-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="btn-close-modal"><span class="material-icons-outlined">close</span></button>
+            <div id="modal-dynamic-content" class="modal-vertical-container"></div>
+        </div>
+    </div>
+    <input type="file" id="global-avatar-input" accept="image/*" style="display: none;">
+    <script src="main.js"></script>
+</body>
+</html>
